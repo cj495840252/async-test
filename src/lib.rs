@@ -56,6 +56,7 @@ impl TimerFuture {
                 else {
                     println!( "[{:?}]: TimerFuture没有获得waker", thread::current().id())
                 }
+                println!("线程死掉")
             }
         );
         // 用None填补没有获取到的值,然后开启一个线程获取资源后，然后告诉程序TimerFuture更新，可以调用wake方法了...",
