@@ -10,7 +10,7 @@
 
 
 
-![image-20230923180704360](/Users/zackjchen/Library/Application Support/typora-user-images/image-20230923180704360.png)
+![image-20230923180704360](./picture/image-20230923180704360.png)
 
 
 
@@ -22,7 +22,7 @@
 4. 发现poll返回Pending，就会放回future到Task(task放)。
 5. 第二次循环开始，revc阻塞
 
-![image-20230923181103380](/Users/zackjchen/Library/Application Support/typora-user-images/image-20230923181103380.png)
+![image-20230923181103380](./picture/image-20230923181103380.png)
 
 ## 3.async块开启新线程
 
@@ -51,4 +51,4 @@
 
 1. run方法发现ready了，那么task就不会放回，channel关闭，run方法结束
 
-<img src="/Users/zackjchen/Library/Application Support/typora-user-images/image-20230923184050586.png" alt="image-20230923184050586" style="zoom:40%;" />
+<img src="./picture/image-20230923184050586.png" alt="image-20230923184050586" style="zoom:40%;" />
